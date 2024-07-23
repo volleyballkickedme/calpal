@@ -4,11 +4,30 @@ import "../css/styles.css"
 import logo from '../assets/logo.png'
 
 const Navbar = ({ showLinks = true}) => {
+  const navbar = {
+    width: '99vw', 
+    height: '100px',
+    position: 'fixed',
+    top: '0',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignitems: 'center',
+    backgroundColor: 'green',
+    color: 'white',
+    
+  }
+
+  const menu = {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
+
   return (
-    <div className="navbar">
-      <img src={logo} className='logo' /> 
+    <div style={ navbar }>
+      <img src={logo} /> 
       { showLinks ? 
-        <nav className='links'> 
+        <nav style={ menu }> 
         <NavLink 
         to="/" 
         style={({ isActive }) => ({

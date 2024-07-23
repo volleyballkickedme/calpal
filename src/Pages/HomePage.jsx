@@ -15,7 +15,7 @@ const Homepage = () => {
     textAlign: 'center'  // Ensures text within containers is centered
   }
   return (
-    <div className='homeContainer' style={styles}>
+    <div style={styles}>
       <WelcomeMessage username='Username placeholder'/>
       <Tracker />
       <Link to='/profile'>Link to user profile, for debugging</Link>

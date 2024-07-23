@@ -217,30 +217,6 @@ header {
     vertical-align: middle; /* This keeps the image vertically aligned with any text or elements in the header */
 }
 
-nav {
-    display: inline-block;
-    vertical-align: middle; /* Aligns the nav with the logo image */
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%); /* Centers nav vertically in the header */
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
 
 main {
     padding: 20px;
@@ -279,13 +255,6 @@ footer {
     color: white;
 }
 
-nav ul li button {
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font: inherit;
-}
 
 #submit-button {
     appearance: none;
